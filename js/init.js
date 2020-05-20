@@ -1,5 +1,5 @@
 jQuery(function ($) {
-  $("#rss-sandiego").rss("https://www.sandiegouniontribune.com/news/rss2.0.xml, https://feeds.kpbs.org/san-diego-stories", {
+  $("#rss-sandiego").rss("https://www.sandiegouniontribune.com/news/rss2.0.xml, https://feeds.kpbs.org/most-read", {
     limit: 4
   })
 })
