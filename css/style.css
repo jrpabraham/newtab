@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Fira Code', monospace;
   display: flex;
   min-height: 110vh;
   flex-direction: column;
@@ -16,12 +16,10 @@ main {
 h6 {
   font-size: 130%;
   color: white;
-  text-shadow: 2px 2px #000000;
 }
 
 a {
   color: #cecece;
-  text-shadow: 2px 2px #000000;
 }
 
 a:hover {

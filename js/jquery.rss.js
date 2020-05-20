@@ -48,7 +48,7 @@
   RSS.prototype.load = function (callback) {
     var apiProtocol = 'https';
     var apiHost     = apiProtocol + '://' + this.options.host;
-    var apiUrl      = apiHost + '?callback=?&q=' + encodeURIComponent(this.url);
+    var apiUrl      = apiHost + '?callback=?&order=-publishedDate&q=' + encodeURIComponent(this.url);
 
     // set limit to offsetEnd if offset has been set
     if (this.options.offsetStart && this.options.offsetEnd) {

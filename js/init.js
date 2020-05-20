@@ -1,17 +1,35 @@
 jQuery(function ($) {
-  $("#rss-theverge").rss("http://www.theverge.com/rss/index.xml", {
-    limit: 7
+  $("#rss-sandiego").rss("https://www.sandiegouniontribune.com/news/rss2.0.xml, https://feeds.kpbs.org/san-diego-stories", {
+    limit: 4
   })
 })
 
 jQuery(function ($) {
-  $("#rss-androidpolice").rss("http://feeds.feedburner.com/AndroidPolice", {
-    limit: 7
+  $("#rss-worldnews").rss("https://www.npr.org/rss/rss.php?id=1001", {
+    limit: 8
   })
 })
 
 jQuery(function ($) {
-  $("#rss-ars").rss("http://feeds.arstechnica.com/arstechnica/index/", {
-    limit: 7
+  $("#rss-nber").rss("https://www.nber.org/rss/newdev.xml,https://www.nber.org/rss/newls.xml,https://www.nber.org/rss/newpe.xml", {
+    limit: 2
+  })
+})
+
+jQuery(function ($) {
+  $("#rss-devblogs").rss("https://chrisblattman.com/feed/,https://feeds.feedburner.com/marcfbellemare/uTio,https://voxdev.org/rss.xml,https://davidevans.blog/feed,https://developingeconomics.org/feed", {
+    limit: 2
+  })
+})
+
+jQuery(function ($) {
+  $("#rss-analog").rss("https://reddit.com/r/analog/.rss", {
+    limit: 8
+  })
+})
+
+jQuery(function ($) {
+  $("#rss-pinko").rss("https://c4ss.org/feed,https://thebaffler.com/feed,https://chuangcn.org/feed,https://www.dissentmagazine.org/feed,https://baseandsuperstructure.com/feed,https://imperiumadinfinitum.wordpress.com/feed,https://thecharnelhouse.org/,https://www.viewpointmag.com/feed,https://thenewinquiry.com/feed,https://jacobinmag.com/feed", {
+    limit: 2
   })
 })
