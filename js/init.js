@@ -17,7 +17,7 @@ jQuery(function ($) {
 })
 
 jQuery(function ($) {
-  $("#rss-devblogs").rss("https://chrisblattman.com/feed/,https://feeds.feedburner.com/marcfbellemare/uTio,https://voxdev.org/rss.xml,https://davidevans.blog/feed,https://developingeconomics.org/feed", {
+  $("#rss-devecon").rss("https://chrisblattman.com/feed/,https://feeds.feedburner.com/marcfbellemare/uTio,https://voxdev.org/rss.xml,https://davidevans.blog/feed,https://developingeconomics.org/feed", {
     limit: 2
   })
 })
