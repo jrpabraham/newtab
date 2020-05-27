@@ -1,6 +1,6 @@
 jQuery(function ($) {
   $("#rss-sandiego").rss("https://patch.com/feeds/aol/california/san-diego, https://feeds.kpbs.org/most-read, https://www.voiceofsandiego.org/feed", {
-    limit: 4
+    limit: 3
   })
 })
 
