@@ -1,11 +1,11 @@
 jQuery(function ($) {
-  $("#rss-sandiego").rss("https://www.sandiegouniontribune.com/news/rss2.0.xml, https://feeds.kpbs.org/most-read", {
+  $("#rss-sandiego").rss("https://patch.com/feeds/aol/california/san-diego, https://feeds.kpbs.org/most-read, https://www.voiceofsandiego.org/feed", {
     limit: 4
   })
 })
 
 jQuery(function ($) {
-  $("#rss-worldnews").rss("https://www.npr.org/rss/rss.php?id=1001", {
+  $("#rss-npr").rss("https://www.npr.org/rss/rss.php?id=1001", {
     limit: 8
   })
 })
